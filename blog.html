@@ -20,19 +20,110 @@
 
     <h2>Blog<h2>
 
-    <h4>
-    <p>August 28, 2019</p>
-    <p>Grit and Whatever It Takes: Overcoming Life's Obstacles</p>
-    </h4>
+      <h4>Arrays</h4>
+      <h5>August 29, 2019</h5>
+      <p></p>
+      <div class="blog">
 
+        <p>An array is a dataype in Java, which is used to store multiple (like) values in one variable, instead of using a separate variable for each value. It can be used to hold primitive datatypes, such as ints and doubles, but it can also contain objects.</p>
+
+        <p>Creating an array is simple and if you've created even the most basic Java application before, then you've already used an array without even knowing it; the main method takes an array of Strings called args. No problem, if you're unfamiliar. Here's the basics of how an array is created and instantiated in Java:
+        <ul>
+          <li>Datatype [] ArrayName = new Datatype [arraySize];</li>
+          <li>String [] names = new String[6];</li>
+        </ul>
+        </p>
+
+        <p>There are many ways to fill your new array, some of which are:
+        <ul>
+          <li>Datatype [] ArrayName = new Datatype []{item1, item2, item3};</li>
+          <li>String [] names = new String[]{"Travis", "Emily", "Autumn", "Sawyer", "Loki", "Spock"};</li>
+          <li>ArrayName[indexNumber] = item1;</li>
+          <li>names[0] = "Travis";</li>
+        </ul>
+      </p>
+
+      <p>Accessing items within an array can also be accomplished in multiple ways:
+      <ul>
+        <li>ArrayName[indexNumber]; (combine with a print method or statement)</li>
+        <li>names[1]; (combine with a print method or statement)</li>
+        <li>For Loop:</li>
+        <ul>
+          <li>for(int i = 0; i < ArrayName.length; i++)
+            <p>{</p>
+              <p>ArrayName[i]; (combine with a print method or statement)</p>
+            <p>}</p>
+          </li>
+        </ul>
+        <li>For Each Loop:</li>
+        <ul>
+          <li>for(int s : IntArray)
+          <p>{</p>
+          <p>s += s;</p>
+          <p>}</p></li>
+        </ul>
+      </ul>
+    </p>
+
+      </div>
+
+      <h4>Java Packages</h4>
+      <h5>August 29, 2019</h5>
+      <p></p>
+      <div class="blog">
+
+        <p>When coding, we often need to perform tasks that are quite common: math, date calculations, take input from/save to a file, etc. Being the <strike>lazy</strike> efficient people we are, developers like to save as much time and effort as possible, by reusing existing code, instead of recreating it. Many tasks are so commonly done, that Java already has them built-in and saved into groups of related classes called Packages.</p>
+
+        <p>Using these packages is simple, and the internet is full of examples and documentation on how to do so. The best place to start is the <a href="https://docs.oracle.com/javase/8/docs/api/" target="_blank">JAVA Development Kit 8 API Documentation</a>, which lists all of the built-in Java packages available, along with a description of each, how to use them, their return types, and so on.</p>
+
+        <p>An example of a built-in package is called Scanner. This package provides methods to take input from a file or user. To use it, your code should include "import java.util.Scanner;" at the very top.</p>
+
+        <p>Breaking this statement down allows a better understanding:
+        <ol>
+          <li>import: pulls in other classes from the following given "directory" of folders</li>
+          <li>java: the top folder we are pulling from</li>
+          <li>util: the util folder within the java folder, that we're pulling from</li>
+          <li>Scanner: the class we want to pull in for use</li>
+        </ol></p>
+
+        <p>Importing packages gives developers the ability to pull in pre-made classes, from the directory given within the import statement, allowing for simple reuse of existing code.</p>
+
+
+      </div>
+
+      <h4>The Goal: Why Did I Come to Skill Distillery</h4>
+      <h5>August 29, 2019</h5>
+      <p></p>
+      <div class="blog">
+
+        <p>If you've already checked out the <a href="about.html">About</a> section of this website, then you may already have a good idea of why I'm attending Skill Distillery. For those of you that haven't, let me catch you up; after completing a Bachelor's in Computer Information Systems in December of 2015, I found a job as a Junior Database Developer in March of 2016; unfortunately in October of 2018, I found myself looking for work again because my contract position had ended. Despite searching for several months, I wasn't getting very far because most positions seem to require at least 3-5 years of experience, and I only had about 2.</p>
+
+        <p>After a back surgery in January 2019, I decided that I wouldn't let lack of experience hold me back any longer, and I began looking into educational possibilities beyond the typical college curriculum, which would give me a lot of in-depth knowledge and experience. During my search, I came across Skill Distillery and was impressed with the curriculum, and all of the positive reviews out there. While still recovering from back surgery, and an unfortunate spinal infection, I applied and was accepted into their program.</p>
+
+        <p>In August of 2019 I began working through the Skill Distillery course's pre-work, which I found very impressive. It consisted of a book called <a href="https://learnjavathehardway.org">Learn Java the Hard Way</a>, which really forced me to manually work through the process of learning the basics of Java, by methodically typing up exercises from the book, then modifying them in different ways to achieve the goal listed in each exercise's Study Drills. Skill Distillery also provided several Labs to work through; each Lab was meant to reinforce the self-study that I did in the Java book.</p>
+
+        <p>After about a week, I had completed all of the assigned Java pre-work, but still had several weeks before the course would begin. I decided to take this extra time to do the required exercises a second time, and then worked through the second half of the Java book we were provided. I really wanted to ensure that I was as prepared as possible for the Skill Distillery course.</p>
+
+        <p>The final part of the course pre-work entailed creating a (this) Blog/Website, where I would list a bit about myself, what I've learned, my experience in the course, projects completed, etc. All of this has helped me to work through my understanding of different Java concepts, while simultaneously teaching me some HTML and CSS basics. I'm hopeful that by the end of the course, this Website will also be of use to my future potential employers; allowing them to see all I've learned, to browse a portfolio of my work on GitHub, and to give them a glimpse at who I am as a person and potential employee.</p>
+
+        <p>That catches you up. So, what's my goal? I've come to Skill Distillery to learn and absorb as much information as I can. I'd like to get all of the knowledge and experience that's possible. I will no longer settle for struggling to find a job because I lack experience. I'm here to take control of my life, learning, and career. I'm confident that if I continue to give my all and put in the effort, that Skill Distillery will help me get what I need.</p>
+
+
+      </div>
+
+
+    <h4>Grit and Whatever It Takes: Overcoming Life's Obstacles</h4>
+    <h5>August 28, 2019</h5>
+    <p></p>
     <div class="blog">
-    <p>I consider myself extremely lucky, as there are people who's entire lives have been lived in much harder situations than mine; however, there have been several obstacles that I've had to overcome including, being laid off from a six-figure sales position, injuring my back and living with chronic and agonizing pain, and struggling to get real-world job experience in the pursuit of success.</p>
 
-    <p>In 2006 a friend recommended me for a sales position with Time Warner Cable and I got the job. I quickly rose through the ranks to become the most consistent and highest-selling agent in the entire division; within a short time I was promoted to manage a team of about 15 sales agents. Both the sales and management position were great, and afforded me a six-figure salary; unfortunately, in 2010 Time Warner Cable closed our entire office. I was offered the ability to relocate to the east coast, or to take a severance check and move on. At the time, my Wife and I had just purchased a HUD house and had a one year old son, so I chose to take the severance and move on.</p>
+      <p>I consider myself extremely lucky, as there are people who's entire lives have been lived in much harder situations than mine; however, there have been several obstacles that I've had to overcome including, being laid off from a six-figure sales position, injuring my back and living with chronic and agonizing pain, and struggling to get real-world job experience in the pursuit of success.</p>
 
-    <p>In the two years that followed, I bounced from job to job, trying to find something similar that was a good fit, paid well, and that I enjoyed; however, because neither my Spouse or I had a college degree, we found it very hard to do so. This forced us to sell our home in 2012, so that I could get a college degree in the pursuit of a better, and more meaningful life.</p>
+      <p>In 2006 a friend recommended me for a sales position with Time Warner Cable and I got the job. I quickly rose through the ranks to become the most consistent and highest-selling agent in the entire division; within a short time I was promoted to manage a team of about 15 sales agents. Both the sales and management position were great, and afforded me a six-figure salary; unfortunately, in 2010 Time Warner Cable closed our entire office. I was offered the ability to relocate to the east coast, or to take a severance check and move on. At the time, my Wife and I had just purchased a HUD house and had a one year old son, so I chose to take the severance and move on.</p>
 
-    <p>At this point I had a choice to make; we could keep pressing on and trying to find work that would allow us to squeak by, probably living paycheck to paycheck forever, or we could move in with my Wife's Mother, while I got a college degree. I chose the later, starting school in the summer of 2012, taking a full load three semesters a year, while working for myself as an appliance repairman, and eventually graduating with a Bachelor's in Computer Information Systems (and a pretty good GPA as well) in December of 2015. A four month job search later, and I had a new career as a Database Developer. Since that time, I've strived to get all of the experience that I can, while trying to make a living.</p>
+      <p>In the two years that followed, I bounced from job to job, trying to find something similar that was a good fit, paid well, and that I enjoyed; however, because neither my Spouse or I had a college degree, we found it very hard to do so. This forced us to sell our home in 2012, so that I could get a college degree in the pursuit of a better, and more meaningful life.</p>
 
-    <p>To me, overcoming obstacles and dealing with change is a just part of life. To succeed, you need grit: the ability to keep going: to press on, keep working at it, and give it your all, no matter what. Elon Musk once said, "If you're going through hell, keep going." I view grit as the number one thing you need to overcome obstacles and do well in life, because if you don't give it your all and do whatever it takes, there's no way you will ever succeed.</p>
+      <p>At this point I had a choice to make; we could keep pressing on and trying to find work that would allow us to squeak by, probably living paycheck to paycheck forever, or we could move in with my Wife's Mother, while I got a college degree. I chose the later, starting school in the summer of 2012, taking a full load three semesters a year, while working for myself as an appliance repairman, and eventually graduating with a Bachelor's in Computer Information Systems (and a pretty good GPA as well) in December of 2015. A four month job search later, and I had a new career as a Database Developer. Since that time, I've strived to get all of the experience that I can, while trying to make a living.</p>
+
+      <p>To me, overcoming obstacles and dealing with change is a just part of life. To succeed, you need grit: the ability to keep going: to press on, keep working at it, and give it your all, no matter what. Elon Musk once said, "If you're going through hell, keep going." I view grit as the number one thing you need to overcome obstacles and do well in life, because if you don't give it your all and do whatever it takes, there's no way you will ever succeed.</p>
     </div>
