@@ -14,14 +14,16 @@
     <div class = "topNav">
       <a href="index.html">Home</a>
       <a href = "about.html">About</a>
-      <div class="dropdown">
-        <div class="dropbtn">Blog
+      <div class="dropdownActive">
+        <div class="dropbtnActive">Blog
         </div>
         <div class="dropdown-content">
+          <a href="blog.html" class="active">Blog</a>
           <a href="blog.html#Grit">Grit</a>
           <a href="blog.html#TheGoal">The Goal</a>
           <a href="blog.html#Arrays">Arrays</a>
-          <a href="blog.html#JavaPackages">Java Packages</a>
+          <a href="blog.html#Packages">Packages</a>
+          <a href="blog.html#Methods">Methods</a>
         </div>
       </div>
       <a href = "links.html">Links</a>
@@ -115,7 +117,7 @@
 
       </div>
 
-      <h4 id="JavaPackages">Java Packages</h4>
+      <h4 id="Packages">Packages</h4>
       <h5>August 26, 2019</h5>
       <p></p>
       <div class="blog">
@@ -139,12 +141,31 @@
 
       </div>
 
-      <h4>Title</h4>
+      <h4>Methods</h4>
       <h5>August 30, 2019</h5>
       <p></p>
-      <div class="blog">
+      <div class="blog" id="Methods">
 
-        <p>Body</p>
+        <p>A method is a collection of statements (within a class) that perform some task. They allow developers to easily reuse code. There are 5 basic parts to a method:</p>
+
+        <ol>
+          <li>Modifier: defines from where the method can be accessed in your application:</li>
+          <ul>
+            <li>Public - accessible in all classes in your application</li>
+            <li>Protected - accessible <em>only</em> within its class, and it's subclasses</li>
+            <li>Private - accessible <em>only</em> from the class it's defined in</li>
+            <li>No modifier/Default - accessible in the package and class it's defined in</li>
+          </ul>
+          <li>Return type: the data type of a value returned by the method, or void if there's no return value</li>
+          <li>Method name: the name of the method</li>
+          <li>Parameters: a comma-separated list of the parameters (data type, name) that the method will take when called</li>
+          <li>Method body: the code to be executed</li>
+        </ol>
+
+        <img src="methods.png">
+
+
+
 
 
       </div>

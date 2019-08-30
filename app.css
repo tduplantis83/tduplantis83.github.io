@@ -39,7 +39,6 @@
   font-style: normal;
 }
 
-
 /*Dropdown*/
 /* The dropdown container */
 .dropdown {
@@ -49,15 +48,20 @@
 
 .dropdownActive {
   background-color: #407ac7;
-  color: white;
   float: left;
   overflow: hidden;
+}
+
+/* Dropdown button Active*/
+.dropdownActive .dropbtnActive {
   font-size: 16px;
   border: none;
   outline: none;
+  color: white;
   padding: 14px 16px;
+  background-color: #407ac7;
   font-family: inherit; /* Important for vertical align on mobile phones */
-  margin: 0;
+  margin: 0; /* Important for vertical align on mobile phones */
 }
 
 /* Dropdown button */
@@ -72,8 +76,14 @@
   margin: 0; /* Important for vertical align on mobile phones */
 }
 
-/* Add a red background color to navbar links on hover */
+/* Add a background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a background color to navbar links on hover */
+.navbar a:hover, .dropdownActive:hover .dropbtnActive {
   background-color: #ddd;
   color: black;
 }
@@ -105,5 +115,10 @@
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Show the dropdown menu on hover */
+.dropdownActive:hover .dropdown-content {
   display: block;
 }
